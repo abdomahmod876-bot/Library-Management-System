@@ -1,0 +1,45 @@
+📚 Library Management System (C++)
+📌 Description
+
+This is a simple Library Management System developed using C++ and Object-Oriented Programming (OOP).
+It simulates basic library operations like managing books and members, borrowing and returning books.
+
+🚀 Features
+Add new books to the library
+Add new members
+Borrow books (with rules and restrictions)
+Return books
+Display all books
+Track borrowed books per member
+🧩 Classes Overview
+📖 Book
+title
+author
+ISBN
+availability status
+👤 Member
+name
+id
+list of borrowed books (max 3 books)
+🏛 Library
+list of books
+list of members
+handles all operations (borrow / return / add)
+⚙️ Rules
+A book cannot be borrowed if it is not available
+Each member can borrow a maximum of 3 books
+🛠 Technologies
+C++
+Object-Oriented Programming (OOP)
+STL (vector)
+🎯 Purpose
+
+This project was created to practice:
+
+OOP concepts
+Class design
+Real-world system simulation
+Problem solving in C++
+👨‍💻 Author
+
+Abdo Mahmood
